@@ -1,16 +1,9 @@
-# hello_flutter
+## Flutter Widgets
+A Flutter project that will teach you the list of basic widgets that you're going to use in your every application. 🙂
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Widgets List
+The list of widgets you are going to learn in this project are:
+1. Container & SizedBox
+2. Row, Column & Wrap
+3. Text Button & Elevated Button
+4. ListView & GridView
