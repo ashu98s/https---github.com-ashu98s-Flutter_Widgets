@@ -3,6 +3,7 @@ import 'package:hello_flutter/widgets/button.dart';
 import 'package:hello_flutter/widgets/container_sized.dart';
 import 'package:hello_flutter/widgets/list_grid.dart';
 import 'package:hello_flutter/widgets/rowscols.dart';
+import 'package:hello_flutter/widgets/snackbar.dart';
 
 //Entry Point for every application
 void main() => runApp(new MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.dark, primaryColor: Colors.deepPurple),
-      home: ListGrid(),
+      home: SnackbarWidget(),
     );
   }
 }
