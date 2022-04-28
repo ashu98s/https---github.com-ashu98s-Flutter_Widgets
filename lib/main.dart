@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hello_flutter/widgets/button.dart';
 import 'package:hello_flutter/widgets/container_sized.dart';
+import 'package:hello_flutter/widgets/dismissible.dart';
 import 'package:hello_flutter/widgets/list_grid.dart';
 import 'package:hello_flutter/widgets/rowscols.dart';
 import 'package:hello_flutter/widgets/snackbar.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.dark, primaryColor: Colors.deepPurple),
-      home: SnackbarWidget(),
+      home: DismissibleWidget(),
     );
   }
 }
