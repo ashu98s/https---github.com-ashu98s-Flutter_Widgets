@@ -7,3 +7,5 @@ The list of widgets you are going to learn in this project are:
 2. Row, Column & Wrap
 3. Text Button & Elevated Button
 4. ListView & GridView
+5. SnackBar
+6. Dismissible
